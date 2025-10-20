@@ -1,0 +1,27 @@
+{
+  "name": "gamesserver",
+  "version": "1.0.0",
+  "description": "meu servidor node.js - games API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "ana julia",
+  "license": "MIT",
+  "keywords": [
+    "games",
+    "api",
+    "servidor",
+    "senai"
+  ],
+  "dependencies": {
+    "express": "^5.1.0",
+    "@prisma/client": "^5.0.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
+
